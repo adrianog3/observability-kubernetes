@@ -180,9 +180,10 @@ metricbeat setup -e \
 
 Os dashboards do Kibana estão disponíveis através do seguinte endpoint:
 
-```
+```bash
 http://${KIBANA_IP}:${KIBANA_PORT}/app/dashboards#/
 ```
+
 Após acessar o endereço, estará disponível uma lista de templates. Podemos pesquisar por `Kubernetes` conforme o exemplo a seguir.
 
 ![Kubernetes Dashboards](./assets/kubernetes_dashboards.png)
