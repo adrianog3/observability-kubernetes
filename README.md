@@ -2,9 +2,7 @@
 
 Este repositório trata-se de um tutorial de como configurar a observabilidade de um cluster Kubernetes utilizando um cojunto de ferramentas conhecido como [Elastic Stack](https://www.elastic.co/pt/elastic-stack).
 
-## :rocket: Technologies
-
-This project was developed with the following technologies:
+## :rocket: Tecnologias
 
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 - [Kubernetes](https://kubernetes.io/)
@@ -25,7 +23,7 @@ This project was developed with the following technologies:
   <img align="left" alt="Kibana" width="24px" src="./assets/kibana.png" style="margin-left: 1px; margin-top: -1px" />
 </a>
 <a target="_blank" href="https://www.elastic.co/beats/metricbeat">
-  <img align="left" alt="Metricbeat" width="36px" src="./assets/metricbeat.svg" style="margin-left: 1px; margin-top: -4px" />
+  <img align="left" alt="Metricbeat" width="32px" src="./assets/metricbeat.svg" />
 </a>
 <br>
 <br>
