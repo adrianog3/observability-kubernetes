@@ -84,7 +84,7 @@ A flag `-all` deleta todos os perfis, enquanto a flag `--purge` deleta a pasta `
 Para este exemplo o Elasticsearch será utilizado para armazenar as métricas de infra-estrutura (host, kubernetes, etc).
 
 ```bash
-kubectl create -f elasticsearch_kubernetes.yaml # o arquivo esta na pasta raiz deste repositório
+kubectl create -f elasticsearch-kubernetes.yaml # o arquivo esta na pasta raiz deste repositório
 ```
 
 `Observação`: ignorar esta etapa caso possua o elasticsearch disponível em cloud.
@@ -94,7 +94,7 @@ kubectl create -f elasticsearch_kubernetes.yaml # o arquivo esta na pasta raiz d
 O Kibana será utilizado para consumir métricas do Elasticsearch e exibi-las em um painel com diversos formatos de visualização.
 
 ```bash
-kubectl create -f kibana_kubernetes.yaml # o arquivo esta na pasta raiz deste repositório
+kubectl create -f kibana-kubernetes.yaml # o arquivo esta na pasta raiz deste repositório
 ```
 
 `Observação`: ignorar esta etapa caso possua o kibana disponível em cloud.
@@ -147,7 +147,7 @@ Para casos onde o elasticsearch esteja em uma *cloud*, é necessário editar dua
 ### Realizar o deploy
 
 ```bash
-kubectl create -f metricbeat_kubernetes.yaml
+kubectl create -f metricbeat-kubernetes.yaml
 ```
 
 ## Passo 6: Habilitar dashboards
